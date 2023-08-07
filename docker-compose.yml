@@ -6,4 +6,6 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - /var/lib/postresql/data
+      - pgdata:/var/lib/postresql/data
+volumes:
+  pgdata:
