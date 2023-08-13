@@ -46,7 +46,7 @@ namespace AuctionService.Data.Migrations
                     b.Property<string>("Seller")
                         .HasColumnType("text");
 
-                    b.Property<int?>("SoleAmount")
+                    b.Property<int?>("SoldAmount")
                         .HasColumnType("integer");
 
                     b.Property<int>("Status")
