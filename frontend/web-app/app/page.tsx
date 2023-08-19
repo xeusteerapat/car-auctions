@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Listings from './auctions/Listings';
 
 export default function Home() {
   return (
     <main>
-      <h1 className='text-3xl font-semibold'>Hi</h1>
+      <Listings />
     </main>
   );
 }
